@@ -18,6 +18,7 @@ public class demo {
             if (arr[i] == target) {
                 return i;
             }
+            System.out.println("linear search used here");
         }
         return -1;
     }
@@ -34,6 +35,7 @@ public class demo {
             } else {
                 right = mid - 1;
             }
+            System.out.println("binary search used here");
         }
         return -1;
     }
