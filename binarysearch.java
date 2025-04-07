@@ -1,4 +1,4 @@
-public class binarysearch {
+public class BinarySearch {
     public static int binarySearch(int[] nums, int low, int high, int target) {
         if (low > high) { // Corrected base case
             return -1;
