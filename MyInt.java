@@ -1,17 +1,13 @@
 public class MyInt {
     int value;
+public void increment() {
+    this.value++;
 }
-class MyInt {
-    int value;
 
-    public void increment() {
-        this.value++;
-    }
-}
-    value.increment();
 public static void main(String[] args) {
     MyInt value = new MyInt();
     value.value = 0;
-    increment(value);
+    value.increment();
     System.out.println(value.value);
+}
 }
