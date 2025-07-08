@@ -1,4 +1,4 @@
-class Excl {
+public class Excl {
     public static void main(String[] args) {
         int d, a;
         try {
