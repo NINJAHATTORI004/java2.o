@@ -10,14 +10,12 @@ class Student implements Comparable<Student> {
         this.name = name;
         this.age = age;
     }
-
-    @Override
     public int compareTo(Student other) {
-        // Sort by marks (ascending)
+        
         return Integer.compare(this.marks, other.marks);
     }
 
-    @Override
+    
     public String toString() {
         return name + " (" + marks + ", " + age + ")";
     }
